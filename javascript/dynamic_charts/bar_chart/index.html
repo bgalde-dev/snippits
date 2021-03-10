@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dropdown Events</title>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h2>Streaming Music By Country</h2>
+    <select id="selDataset" onchange="getData(this.value)">
+        <option value="stack">Stacked Bar Chart</option>
+        <option value="group">Grouped Bar Chart</option>
+    </select>
+    <br>
+    <input type="checkbox" id="usCheck"> US
+    <input type="checkbox" id="ukCheck"> UK
+    <input type="checkbox" id="caCheck"> Canada
+    <br>
+    <input type="checkbox" id="pivotData"> Pivot Data
+
+    <div id="chart"></div>
+
+    <script src="data.js"></script>
+    <script src="plots2.js"></script>
+</body>
+</html>
