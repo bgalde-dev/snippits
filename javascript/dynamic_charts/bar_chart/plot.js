@@ -74,7 +74,7 @@ function init() {
     var layout = {
       title: "Bar Chart",
       xaxis: { title: (pivotData?"County":"Provider") },
-      yaxis: { title: "By Percentage by Country"},
+      yaxis: { title: "Percentage by Country"},
       barmode: chartType,
       height: 600,
       width: 800
