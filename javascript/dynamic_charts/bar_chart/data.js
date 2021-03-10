@@ -3,11 +3,11 @@ var data = {
         Spotify: 19,
         Soundcloud: 5,
         Pandora: 8,
-        Itunes: 302
+        Itunes: 30
     },
 
     uk: {
-        Spotify: 100,
+        Spotify: 10,
         Soundcloud: 2,
         Pandora: 22,
         Itunes: 37
@@ -19,4 +19,4 @@ var data = {
         Pandora: 5,
         Itunes: 15
     }
-}
+};
